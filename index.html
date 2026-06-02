@@ -23,6 +23,17 @@
             align-items: center;
             justify-content: center;
             color: #fff;
+            position: relative;
+        }
+        /* 右上角小字 */
+        .tips-top-right{
+            position: fixed;
+            top:16px;
+            right:20px;
+            font-size:14px;
+            color:#FFE4B5;
+            opacity:0.85;
+            letter-spacing:1px;
         }
 
         .container {
@@ -99,10 +110,16 @@
                 font-size: 1.2rem;
                 padding: 15px 0;
             }
+            .tips-top-right{
+                font-size:12px;
+                top:10px;
+                right:12px;
+            }
         }
     </style>
 </head>
 <body>
+    <div class="tips-top-right">宣文韬最帅</div>
     <div class="container">
         <h1>棋 弈 大 厅</h1>
         <p class="subtitle">点击进入对应棋类游戏</p>
